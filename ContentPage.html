@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="web_JesusBencomo.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Han+Sans&family=Seymour+One&display=swap");
+        </style>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Style the body */
+            body {
+                font-family: fantasy, monospace, sans-serif;
+                margin: 0;
+            }
+
+            /* Header/logo Title */
+            .header {
+                padding: 30px;
+                text-align: center;
+                background: #f67fff;
+                color: white;
+                font-family: "black han sans";
+            }
+
+            /* Increase the font size of the heading */
+            .header h1 {
+                font-size: 40px;
+            }
+
+            /* Style the top navigation bar */
+            .navbar {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            /* Style the navigation bar links */
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+                font-family: "archivo black";
+            }
+
+            /* Right-aligned link */
+            .navbar a.right {
+                float: right;
+            }
+
+            /* Change color on hover */
+            .navbar a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            /* Column container */
+            .row {
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+            }
+
+            /* Create two unequal columns that sits next to each other */
+            /* Sidebar/left column */
+            .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+            }
+
+            /* Main column */
+            .main {
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+                font-family: "archivo black";
+            }
+
+            /* Footer */
+            .footer {
+                padding: 20px;
+                text-align: center;
+                background: #ddd;
+                font-family: "archivo black";
+            }
+
+            /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 700px) {
+                .row {
+                    flex-direction: column;
+                }
+            }
+
+            /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+            @media screen and (max-width: 400px) {
+                .navbar a {
+                    float: none;
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <img src="PhonkeyIMG.jpg" alt="PhonkeyFantom" width="150" height="150" />
+            <h1>Phonkey Fantom.</h1>
+        </div>
+
+        <div class="navbar">
+            <a href="HomePage_JesusBencomo.html">Home</a>
+            <a href="ResumePage.html">Resume</a>
+            <a href="ContentPage.html">Portfolio</a>
+            <a href="FormPage.html">Requests</a>
+            <a href="#" class="right">?</a>
+        </div>
+
+        <div class="row">
+            <div class="main">
+                <h2>Djimi Djama.</h2>
+                <p>
+                    Different designs I've been creating with other Front Range interns for the company Djimi Djama. The
+                    digital marketing that I've been asked to make range from social media to Djimi Djama website posts.
+                </p>
+                <div class="img">
+                    <img src="DjimiDjamaSAMPLE.jpg" width="250" height="325" alt="DjimiDjama1" />
+                    <img src="RoseDjimi_AD.png" width="325" height="325" alt="DjimiDjama2" />
+                    <h2>Front Range Community College Intern Program (MGD).</h2>
+                    <p>
+                        Designs I've been creating with other Front Range interns creating sticker and mural designs for
+                        the FRCC MGD (multi graphic design) program.
+                    </p>
+                    <img src="FRCC_Honors_STICKERS.jpg" width="375" height="200" alt="FRCCHonors" />
+                    <img src="MGDmural_Jbencomo.jpg" width="375" height="200" alt="MGDMural" />
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h2>
+                <a href="https://www.youtube.com/watch?v=glN0W8WogK8">?</a>
+            </h2>
+        </div>
+    </body>
+</html>
